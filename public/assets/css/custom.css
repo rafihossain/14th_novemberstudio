@@ -1,0 +1,40 @@
+/*rs salim common css*/
+.fs-40 {
+	font-size: 40px;
+}
+.dropify-wrapper .dropify-message p{
+	font-size: 20px;
+}
+.logo-box .logo-dark{
+	text-align: center;
+	background: #dcdcdc;
+}
+
+/*rs salim new*/
+
+.addpagesection,.addbanner,.addcontentslider{
+	margin: 20px 0px;
+	border:3px dashed #cccccc; 
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#banner_home,#single_image,#testmonilalist,#partnerlist,#contentdescription,#content_slider,#bloglist,#servicelist{
+	display: none;
+}
+#service_image-error, #partner_image-error,#user_image-error,#member_image-error,#location_image-error,#profile_image-error,#blog_image-error{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.error {
+    font-weight: normal;
+    font-size: 13px;
+    color: #ff8181;
+    margin-top: 5px;
+}
